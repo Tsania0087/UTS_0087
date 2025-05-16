@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FreshClean Laundry</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <nav>
+        <div class="navbar">
+            <h1>FreshClean Laundry</h1>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="index.html#tentang-kami">Profil Kami</a></li>
+                <li><a href="index.html#layanan-dan-harga">Layanan</a></li>
+                <li><a href="index.html#layanan-dan-harga">Harga</a></li>
+                <li><a href="index.html#galeri">Galeri Foto</a></li>
+                <li><a href="index.html#testimoni">Ulasan</a></li>
+                <li><a href="index.html#kontak">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="box-form">
+                <h1>Form Pemesanan Layanan</h1>
+                <form action="" method="POST">
+                  
+                    <label for="nama">Nama Lengkap:</label><br />
+                    <input type="text" id="nama" name="nama" required /><br /><br />
+
+                   
+                    <label for="nomor_hp">Nomor HP:</label><br />
+                    <input type="tel" id="nomor_hp" name="nomor_hp" required /><br /><br />
+
+                   
+                    <label for="email">Email:</label><br />
+                    <input type="email" id="email" name="email" required /><br /><br />
+
+    
+                    <label for="service">Pilih Layanan:</label><br />
+                    <select id="service" name="service" required>
+                        <option value="Laundry Kiloan">Laundry Kiloan</option>
+                        <option value="Setrika Saja">Setrika Saja</option>
+                        <option value="Dry Cleaning">Dry Cleaning</option>
+                        <option value="Cuci Sepatu">Cuci Sepatu</option>
+                    </select><br /><br />
+                    <button type="submit">Kirim Pesanan</button>
+                </form>
+            </div>
+
+            
+            <div class="box-image">
+                <img src="img/ayo.png" alt="Laundry Image" />
+            </div>
+        </div>
+    </main>
+</body>
+</html>
